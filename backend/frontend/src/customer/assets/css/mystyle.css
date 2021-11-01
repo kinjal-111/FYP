@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.4;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: .75rem 0;
+}
+
+h1.h2.h3,h4,h5,h6{
+    font-weight: 500;
+}
+
+img{
+    width: 100%;
+}
+
+.navbar{
+    background: #007bff;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .navbar-links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar .navbar-links li a{
+    color: #fff;
+    margin: 0 .25rem;
+    padding: .75rem;
+    border-radius: 5px;
+}
+
+.navbar-links li{
+    font-size: 18px;
+}
+
+.navbar h3:hover{
+    cursor: pointer;
+}
+
+.showcase{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.showpiece::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.electronics::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.furniture::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.showpiece{
+    text-align: center;
+    color: #007bff;
+    font-size: 25px;
+}
+
+.electronics{
+    text-align: center;
+    color: #007bff;
+    font-size: 25px;
+}
+
+.furniture{
+    text-align: center;
+    color: #007bff;
+    font-size: 25px;
+}
+
+.showpiece img{
+    width: 300px;
+    height: 300px;
+}
+
+.electronics img{
+    width: 300px;
+    height: 300px;
+}
+
+.furniture img{
+    width: 300px;
+    height: 300px;
+}
+
+
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #007bff;
+    font-size: 20px;
+    background-color: rgb(207, 201, 201);
+}

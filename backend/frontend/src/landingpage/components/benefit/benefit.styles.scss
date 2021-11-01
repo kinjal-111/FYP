@@ -1,0 +1,40 @@
+#aboutus {
+  background: #EFEFEF!important;
+  padding: 50px 0 50px;
+
+
+  .benefit-container {
+    
+    .title-benefit-container {
+        font-size: 37px;
+        color: black;
+        text-align: center;
+        h2 {
+            font-weight: 400;
+        }
+  
+        hr {
+            width: 93px;
+            height: 2px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #007BFF;
+            border: 0 none;
+        }
+    }
+    .para{
+        margin-top: 45px;
+        letter-spacing: 1px;
+        color:#333;
+    }
+    .image-container {
+      margin: 0px 35px 0px 90px;
+
+      img {
+        width: 400px;
+        //height: 350px;
+        //height: auto;
+      }
+    }
+  } 
+}

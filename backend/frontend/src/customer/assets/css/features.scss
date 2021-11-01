@@ -1,0 +1,127 @@
+#features {
+    padding: 100px 0;  
+    h2{
+       color: #333;
+        margin-top: 40px;
+        text-align:center;
+        font-size: 40px;
+        font-weight: 550;
+    }
+    hr{
+          width: 110px;
+          height: 2px;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: #696969;
+          border: 0 none;
+          margin-bottom: 50px;
+        }
+    .feature-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .title-container {
+        color: #FEFEFE;
+        margin-bottom: 10px;
+        text-align:center;
+        h1 {
+          font-size: 40px;
+          font-weight: 800;
+        }
+        h2{
+          color: #333;
+          margin-top: 40px;
+          text-align: center;
+          font-size: 40px;
+          font-weight: 550;
+          }
+    
+        hr {
+          width: 60%;
+          height: 2px;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 40px;
+          background-color: #696969;
+          border: 0 none;
+        }
+      }
+
+      .feature-content-container{
+        margin-left: 40px;
+        .card-outer{
+          margin: 10px 30px 20px 20px;
+          height: auto;
+          margin-bottom: 30px;
+          display:flex;
+          justify-content:center;
+          align-items:center;
+        }
+        .contain-card-img{
+          padding:10px 10px 0px 50px;
+          width:200px;
+          height:170px;
+        }
+        .card{
+          box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0);
+          transition: transform 0.6s;
+          border-radius: 12px;
+          width: 300px;
+          height:340px;
+          text-align:center;
+          padding: 10px 0;
+        }
+        .card:hover {
+          //will-change: transform; 
+          //transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(8.8076deg) rotateY(5.717deg) rotateZ(0deg) skew(0deg, 0deg);
+          //transform-style: preserve-3d;
+          //box-shadow: 0 4px 8px 0 rgba(255, 171, 171, 0.3);
+        }
+        .para {
+          //color: #7E7E7E;
+          color: #505050;
+          padding-top: 10px;
+          font-size: 18px;
+          font-weight: 500;
+          margin-bottom: 20px;
+        }
+        .smallpara{
+          color: #696969;
+          letter-spacing: 3px;
+          font-size: 16px;
+          font-weight: 400;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  
+  
+@media (max-width: 992px ) and (min-width: 330px){
+  .feature-container{
+    .card{
+      font-weight: 500important;
+      width: 21rem!important;
+      height: 27rem!important
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

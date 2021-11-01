@@ -1,0 +1,34 @@
+#footer{
+  background-color: #007BFF!important;
+  padding: 25px 0;
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    .logo-section{
+      text-align: center;
+      img{
+        padding-bottom: 15px;
+      }
+      .copyrights {
+        font-size: 15px;
+        font-weight: 500!important;
+        margin-bottom: 0!important;
+        color: #FEFEFE;
+      }
+    }
+  }
+}
+
+@media (max-width: 990px ) and (min-width: 300px){
+  #footer{
+    .logo-section{
+      img{
+        width: 70px!important;
+        height: auto!important;
+        margin-bottom: 15px!important;
+      }
+    }
+  } 
+}
