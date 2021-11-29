@@ -60,7 +60,7 @@ class Signin extends Component {
         <div id="nav-section">
           <Navbar expand="lg" className="grey-bg">
               <Navbar.Brand className="brand" href="#home">
-                  Furnish the <strong>GreySpace</strong> - 3D Model
+                  Arshelf
               </Navbar.Brand>
           </Navbar>
         </div> 

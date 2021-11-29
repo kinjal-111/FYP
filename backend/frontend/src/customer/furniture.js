@@ -18,15 +18,15 @@ class furniture extends React.Component{
              <div id="nav-section">
                 <Navbar expand="lg" className="grey-bg">
                     <Navbar.Brand className="brand" href="#home">
-                        Furnish the <strong>GreySpace</strong> - 3D Model
+                        ARShelf
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">    
-                            <Nav.Link href="/furnishthegreyspace/electronics">Electronics</Nav.Link>
-                            <Nav.Link className="active" href="/furnishthegreyspace/furniture">Furniture</Nav.Link>
-                            <Nav.Link href="/furnishthegreyspace/showpiece">Showpiece</Nav.Link>
-                            <Nav.Link href="/furnishthegreyspace/contactus">Contact Us</Nav.Link>
+                            <Nav.Link href="/arshelf/electronics">Electronics</Nav.Link>
+                            <Nav.Link className="active" href="/arshelf/furniture">Furniture</Nav.Link>
+                            <Nav.Link href="/arshelf/showpiece">Showpiece</Nav.Link>
+                            <Nav.Link href="/arshelf/contactus">Contact Us</Nav.Link>
                             <div className="navicon">
                                 <a href="#" className="navbar-icon"><FontAwesomeIcon id="wishlist-icon" icon={faHeart}/></a>
                                 <a href="#" className="navbar-icon"><FontAwesomeIcon id="cart-icon" icon={faCartArrowDown}/></a>
@@ -47,7 +47,7 @@ class furniture extends React.Component{
                         </Col>
 
                         <Col md="4">
-                            <a href="/furnishthegreyspace/product">
+                            <a href="/arshelf/product">
                                 <Card className="card-card">
                                     <div className="contain-card-img">
                                         <Card.Img variant="center" src={s1}  />
@@ -65,7 +65,7 @@ class furniture extends React.Component{
                             </a>
                         </Col>
                         <Col md="4">
-                            <a href="/furnishthegreyspace/product">
+                            <a href="/arshelf/product">
                                 <Card className="card-card">
                                     <div className="contain-card-img">
                                         <Card.Img variant="center" src={s1}  />
@@ -83,7 +83,7 @@ class furniture extends React.Component{
                             </a>
                         </Col>
                         <Col md="4">
-                            <a href="/furnishthegreyspace/product">
+                            <a href="/arshelf/product">
                                 <Card className="card-card">
                                     <div className="contain-card-img">
                                         <Card.Img variant="center" src={s1}  />
@@ -101,7 +101,7 @@ class furniture extends React.Component{
                             </a>
                         </Col>
                         <Col md="4">
-                            <a href="/furnishthegreyspace/product">
+                            <a href="/arshelf/product">
                                 <Card className="card-card">
                                     <div className="contain-card-img">
                                         <Card.Img variant="center" src={s1}  />
@@ -119,7 +119,7 @@ class furniture extends React.Component{
                             </a>
                         </Col>
                         <Col md="4">
-                            <a href="/furnishthegreyspace/product">
+                            <a href="/arshelf/product">
                                 <Card className="card-card">
                                     <div className="contain-card-img">
                                         <Card.Img variant="center" src={s1}  />
@@ -137,7 +137,7 @@ class furniture extends React.Component{
                             </a>
                         </Col>
                         <Col md="4">
-                            <a href="/furnishthegreyspace/product">
+                            <a href="/arshelf/product">
                                 <Card className="card-card">
                                     <div className="contain-card-img">
                                         <Card.Img variant="center" src={s1}  />

@@ -23,7 +23,7 @@ class CustomerSignin extends Component {
   fileRedirect = () =>{
     if(this.state.didRedirect){
       console.log("About to Redirect!");
-      return this.props.history.push('/furnishthegreyspace');
+      return this.props.history.push('/arshelf');
     }
   }
 
@@ -108,7 +108,7 @@ class CustomerSignin extends Component {
                   </Form.Group>
                 </Form>
                 <div>
-                  <p>Don't have an account? <a href="/furnishthegreyspace/register">Create one</a></p>
+                  <p>Don't have an account? <a href="/arshelf/register">Create one</a></p>
                 </div>
               </div>
               </div>

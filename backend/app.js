@@ -31,7 +31,7 @@ app.use(cors());
 
 
 //PORT
-const port = process.env.PORT || 8001;
+const port = process.env.PORT || 8000;
 console.log("Port : "+ port);
 
 //Starting a server

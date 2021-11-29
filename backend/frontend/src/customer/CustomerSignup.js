@@ -28,7 +28,7 @@ class CustomerSignup extends Component {
 	fileRedirect = () =>{
 	    if(this.state.didRedirect){
 	      console.log("About to Redirect!");
-	      return this.props.history.push('/furnishthegreyspace/login');
+	      return this.props.history.push('/arshelf/login');
 	    }
 	  }
 

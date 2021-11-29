@@ -15,7 +15,7 @@ import ViewProduct from './admin/view_product';
 import OrderDetails from './admin/orderdetails';
 import ShipmentDetails from './admin/shipmentdetails';
 
-import FurnishTheGreySpace from './customer/furnishthegreyspace';
+import arshelf from './customer/arshelf';
 import CustomerSignin from './customer/CustomerSignin';
 import CustomerSignup from './customer/CustomerSignup';
 
@@ -43,14 +43,14 @@ function Routes(){
 				<Route path="/admin/orderlist" exact component={OrderDetails} />
 				<Route path="/admin/shipment" exact component={ShipmentDetails} />
 
-				<Route path="/furnishthegreyspace" exact component={FurnishTheGreySpace} />
-				<Route path="/furnishthegreyspace/login" exact component={CustomerSignin} / >
-				<Route path="/furnishthegreyspace/register" exact component={CustomerSignup} / >
+				<Route path="/arshelf" exact component={arshelf} />
+				<Route path="/arshelf/login" exact component={CustomerSignin} / >
+				<Route path="/arshelf/register" exact component={CustomerSignup} / >
 
-				<Route path="/furnishthegreyspace/furniture" exact component={Furniture} />
-				<Route path="/furnishthegreyspace/electronics" exact component={Electronics} />
-				<Route path="/furnishthegreyspace/showpiece" exact component={Showpiece} />
-				<Route path="/furnishthegreyspace/product" exact component={ProductPage} />
+				<Route path="/arshelf/furniture" exact component={Furniture} />
+				<Route path="/arshelf/electronics" exact component={Electronics} />
+				<Route path="/arshelf/showpiece" exact component={Showpiece} />
+				<Route path="/arshelf/product" exact component={ProductPage} />
 
 			</Switch>
 		</BrowserRouter>

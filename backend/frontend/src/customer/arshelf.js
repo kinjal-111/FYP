@@ -22,7 +22,7 @@ import './assets/css/style.css';
 import '../admin/assets/css/header.scss';
 import './assets/css/footer.scss';
 
-class furnishthegreyspace extends React.Component{
+class arshelf extends React.Component{
 
     render(){
         const {history} = this.props;
@@ -42,15 +42,15 @@ class furnishthegreyspace extends React.Component{
                 <div id="nav-section">
                     <Navbar expand="lg" className="grey-bg">
                         <Navbar.Brand className="brand" href="#home">
-                            Furnish the <strong>GreySpace</strong> - 3D Model
+                           ARShelf
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="mr-auto">    
-                                <Nav.Link href="/furnishthegreyspace/electronics">Electronics</Nav.Link>
-                                <Nav.Link href="/furnishthegreyspace/furniture">Furniture</Nav.Link>
-                                <Nav.Link href="/furnishthegreyspace/showpiece">Showpiece</Nav.Link>
-                                <Nav.Link href="/furnishthegreyspace/contactus">Contact Us</Nav.Link>
+                                <Nav.Link href="/arshelf/electronics">Electronics</Nav.Link>
+                                <Nav.Link href="/arshelf/furniture">Furniture</Nav.Link>
+                                <Nav.Link href="/arshelf/showpiece">Showpiece</Nav.Link>
+                                <Nav.Link href="/arshelf/contactus">Contact Us</Nav.Link>
                                 <div className="navicon">
                                     <a href="#" className="navbar-icon"><FontAwesomeIcon id="wishlist-icon" icon={faHeart}/></a>
                                     <a href="#" className="navbar-icon"><FontAwesomeIcon id="cart-icon" icon={faCartArrowDown}/></a>
@@ -79,7 +79,7 @@ class furnishthegreyspace extends React.Component{
                                                 Special Offers <span style={{color:"#007bff",fontWeight:"800",fontSize:"40px",margin:"6px"}}>|</span> Get 20% Dicount
                                         </h2>
                                         <div className="text-small">So what are you waiting for? <strong>Order now!!</strong></div>
-                                        <p style={{fontSize:"20px",fontWeight:"600",color:"#808080"}}>SPECIAL DIWALI OFFERS ENDS IN
+                                        <p style={{fontSize:"20px",fontWeight:"600",color:"#808080"}}>SPECIAL DHAMAKA OFFERS ENDS IN
                                          <span style={{fontSize:"35px",color:"#007bff",margin:"20px"}}><Countdown date={Date.now() + 1000000000} renderer={renderer} />
                                         </span></p>
                                     </div>
@@ -96,15 +96,15 @@ class furnishthegreyspace extends React.Component{
                                 <hr/>
                                 <Slider {...settings} className="slider">
                                     <div className="img-slider">
-                                        <a href="/furnishthegreyspace/product">
+                                        <a href="/arshelf/product">
                                             <Card className="card-card">
                                                 <div className="contain-card-img">
                                                     <Card.Img variant="center" src={s2}  />
                                                 </div>
                                                 <Card.Body>
                                                     <Card.Text className="container">
-                                                        <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                        <p className="para">From ₹ 2,100</p>
+                                                        <strong style={{fontSize:"20px"}}> </strong>
+                                                        <p className="para">From ₹ 22,100</p>
                                                         <p className="smallpara">Zauri, Homefull</p>
                                                         <br />
                                                     </Card.Text>
@@ -113,15 +113,15 @@ class furnishthegreyspace extends React.Component{
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="/furnishthegreyspace/product">
+                                        <a href="/arshelf/product">
                                             <Card className="card-card">
                                                 <div className="contain-card-img">
                                                     <Card.Img variant="center" src={s2}  />
                                                 </div>
                                                 <Card.Body>
                                                     <Card.Text className="container">
-                                                        <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                        <p className="para">From ₹ 2,100</p>
+                                                        <strong style={{fontSize:"20px"}}>Fully Automactic Grey Washing Machine</strong>
+                                                        <p className="para">From ₹ 22,100</p>
                                                         <p className="smallpara">Zauri, Homefull</p>
                                                         <br />
                                                     </Card.Text>
@@ -130,15 +130,15 @@ class furnishthegreyspace extends React.Component{
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="/furnishthegreyspace/product">
+                                        <a href="/arshelf/product">
                                             <Card className="card-card">
                                                 <div className="contain-card-img">
                                                     <Card.Img variant="center" src={s2}  />
                                                 </div>
                                                 <Card.Body>
                                                     <Card.Text className="container">
-                                                        <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                        <p className="para">From ₹ 2,100</p>
+                                                        <strong style={{fontSize:"20px"}}>Fully Automactic Grey Washing Machine</strong>
+                                                        <p className="para">From ₹ 22,100</p>
                                                         <p className="smallpara">Zauri, Homefull</p>
                                                         <br />
                                                     </Card.Text>
@@ -148,15 +148,15 @@ class furnishthegreyspace extends React.Component{
                                     </div>
 
                                     <div>
-                                        <a href="/furnishthegreyspace/product">
+                                        <a href="/arshelf/product">
                                             <Card className="card-card">
                                                 <div className="contain-card-img">
                                                     <Card.Img variant="center" src={s2}  />
                                                 </div>
                                                 <Card.Body>
                                                     <Card.Text className="container">
-                                                        <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                        <p className="para">From ₹ 2,100</p>
+                                                        <strong style={{fontSize:"20px"}}>Fully Automactic Grey Washing Machine</strong>
+                                                        <p className="para">From ₹ 22,100</p>
                                                         <p className="smallpara">Zauri, Homefull</p>
                                                         <br />
                                                     </Card.Text>
@@ -165,15 +165,15 @@ class furnishthegreyspace extends React.Component{
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="/furnishthegreyspace/product">
+                                        <a href="/arshelf/product">
                                             <Card className="card-card">
                                                 <div className="contain-card-img">
                                                     <Card.Img variant="center" src={s2}  />
                                                 </div>
                                                 <Card.Body>
                                                     <Card.Text className="container">
-                                                        <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                        <p className="para">From ₹ 2,100</p>
+                                                        <strong style={{fontSize:"20px"}}>Fully Automactic Grey Washing Machine</strong>
+                                                        <p className="para">From ₹ 22,100</p>
                                                         <p className="smallpara">Zauri, Homefull</p>
                                                         <br />
                                                     </Card.Text>
@@ -182,15 +182,15 @@ class furnishthegreyspace extends React.Component{
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="/furnishthegreyspace/product">
+                                        <a href="/arshelf/product">
                                             <Card className="card-card">
                                                 <div className="contain-card-img">
                                                     <Card.Img variant="center" src={s2}  />
                                                 </div>
                                                 <Card.Body>
                                                     <Card.Text className="container">
-                                                        <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                        <p className="para">From ₹ 2,100</p>
+                                                        <strong style={{fontSize:"20px"}}>Fully Automactic Grey Washing Machine</strong>
+                                                        <p className="para">From ₹ 22,100</p>
                                                         <p className="smallpara">Zauri, Homefull</p>
                                                         <br />
                                                     </Card.Text>
@@ -199,15 +199,15 @@ class furnishthegreyspace extends React.Component{
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="/furnishthegreyspace/product">
+                                        <a href="/arshelf/product">
                                             <Card className="card-card">
                                                 <div className="contain-card-img">
                                                     <Card.Img variant="center" src={s2}  />
                                                 </div>
                                                 <Card.Body>
                                                     <Card.Text className="container">
-                                                        <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                        <p className="para">From ₹ 2,100</p>
+                                                        <strong style={{fontSize:"20px"}}>Fully Automactic Grey Washing Machine</strong>
+                                                        <p className="para">From ₹ 22,100</p>
                                                         <p className="smallpara">Zauri, Homefull</p>
                                                         <br />
                                                     </Card.Text>
@@ -217,10 +217,10 @@ class furnishthegreyspace extends React.Component{
                                   </div>
 
                                     <div>
-                                        <a href="/furnishthegreyspace/product">
+                                        <a href="/arshelf/product">
                                             <Card className="card-card" >
                                                 <strong style={{fontSize:"30px",marginTop:"140px"}}>View More...</strong>
-                                                <a href="customer/electronics"><FontAwesomeIcon id="wishlist-icon" style={{width:"60px",height:"70px",color:"#007bff",margin:"10px",paddingRight:"20px"}} icon={faArrowRight}/></a>
+                                                <a href="/arshelf/electronics"><FontAwesomeIcon id="wishlist-icon" style={{width:"60px",height:"70px",color:"#007bff",margin:"10px",paddingRight:"20px"}} icon={faArrowRight}/></a>
                                             </Card>
                                         </a>
                                   </div>
@@ -239,15 +239,15 @@ class furnishthegreyspace extends React.Component{
                                 <Row>
                                     <Col md="3" className="card-outer" >
                                         <div className="contain-card" >
-                                            <a href="/furnishthegreyspace/product">
+                                            <a href="/arshelf/product">
                                                 <Card className="card-card" style={{borderColor:"#007bff",borderWidth:"1px 1px 1px 6px"}}>
                                                     <div className="contain-card-img">
                                                         <Card.Img variant="center" src={s3} width="250px!important" />
                                                     </div>
                                                     <Card.Body>
                                                         <Card.Text>
-                                                            <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                            <p className="para">From ₹ 2,100</p>
+                                                            <strong style={{fontSize:"20px"}}>Classy Marvin Fabric Chair</strong>
+                                                            <p className="para">From ₹ 2,999</p>
                                                             <p className="smallpara">Zauri, Homefull</p>
                                                         </Card.Text>
                                                     </Card.Body>
@@ -257,15 +257,15 @@ class furnishthegreyspace extends React.Component{
                                     </Col>
                                     <Col md="3" className="card-outer">
                                         <div className="contain-card" >
-                                            <a href="/furnishthegreyspace/product">
+                                            <a href="/arshelf/product">
                                                 <Card className="card-card" style={{borderColor:"#007bff",borderWidth:"1px 1px 1px 6px"}}>
                                                     <div className="contain-card-img">
                                                         <Card.Img variant="center" src={s3} width="250px!important" />
                                                     </div>
                                                     <Card.Body>
                                                         <Card.Text>
-                                                            <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                            <p className="para">From ₹ 2,100</p>
+                                                            <strong style={{fontSize:"20px"}}>Classy Marvin Fabric Chair</strong>
+                                                            <p className="para">From ₹ 2,999</p>
                                                             <p className="smallpara">Zauri, Homefull</p>
                                                         </Card.Text>
                                                     </Card.Body>
@@ -275,15 +275,15 @@ class furnishthegreyspace extends React.Component{
                                     </Col>
                                     <Col md="3" className="card-outer">
                                         <div className="contain-card" >
-                                            <a href="/furnishthegreyspace/product">
+                                            <a href="/arshelf/product">
                                                 <Card className="card-card" style={{borderColor:"#007bff",borderWidth:"1px 1px 1px 6px"}}>
                                                     <div className="contain-card-img">
                                                         <Card.Img variant="center" src={s3} width="250px!important" />
                                                     </div>
                                                     <Card.Body>
                                                         <Card.Text>
-                                                            <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                            <p className="para">From ₹ 2,100</p>
+                                                            <strong style={{fontSize:"20px"}}>Classy Marvin Fabric Chair</strong>
+                                                            <p className="para">From ₹ 2,999</p>
                                                             <p className="smallpara">Zauri, Homefull</p>
                                                         </Card.Text>
                                                     </Card.Body>
@@ -293,15 +293,15 @@ class furnishthegreyspace extends React.Component{
                                     </Col>
                                     <Col md="3" className="card-outer">
                                         <div className="contain-card" >
-                                            <a href="/furnishthegreyspace/product">
+                                            <a href="/arshelf/product">
                                                 <Card className="card-card" style={{borderColor:"#007bff",borderWidth:"1px 1px 1px 6px"}}>
                                                     <div className="contain-card-img">
                                                         <Card.Img variant="center" src={s3} width="250px!important" />
                                                     </div>
                                                     <Card.Body>
                                                         <Card.Text>
-                                                            <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                            <p className="para">From ₹ 2,100</p>
+                                                            <strong style={{fontSize:"20px"}}>Classy Marvin Fabric Chair</strong>
+                                                            <p className="para">From ₹ 2,999</p>
                                                             <p className="smallpara">Zauri, Homefull</p>
                                                         </Card.Text>
                                                     </Card.Body>
@@ -311,15 +311,15 @@ class furnishthegreyspace extends React.Component{
                                     </Col>
                                       <Col md="3" className="card-outer">
                                         <div className="contain-card" >
-                                            <a href="/furnishthegreyspace/product">
+                                            <a href="/arshelf/product">
                                                 <Card className="card-card" style={{borderColor:"#007bff",borderWidth:"1px 1px 1px 6px"}}>
                                                     <div className="contain-card-img">
                                                         <Card.Img variant="center" src={s3} width="250px!important" />
                                                     </div>
                                                     <Card.Body>
                                                         <Card.Text>
-                                                            <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                            <p className="para">From ₹ 2,100</p>
+                                                            <strong style={{fontSize:"20px"}}>Classy Marvin Fabric Chair</strong>
+                                                            <p className="para">From ₹ 2,999</p>
                                                             <p className="smallpara">Zauri, Homefull</p>
                                                         </Card.Text>
                                                     </Card.Body>
@@ -329,15 +329,15 @@ class furnishthegreyspace extends React.Component{
                                     </Col>
                                     <Col md="3" className="card-outer">
                                         <div className="contain-card" >
-                                            <a href="/furnishthegreyspace/product">
+                                            <a href="/arshelf/product">
                                                 <Card className="card-card" style={{borderColor:"#007bff",borderWidth:"1px 1px 1px 6px"}}>
                                                     <div className="contain-card-img">
                                                         <Card.Img variant="center" src={s3} width="250px!important" />
                                                     </div>
                                                     <Card.Body>
                                                         <Card.Text>
-                                                            <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                            <p className="para">From ₹ 2,100</p>
+                                                            <strong style={{fontSize:"20px"}}>Classy Marvin Fabric Chair</strong>
+                                                            <p className="para">From ₹ 2,999</p>
                                                             <p className="smallpara">Zauri, Homefull</p>
                                                         </Card.Text>
                                                     </Card.Body>
@@ -347,15 +347,15 @@ class furnishthegreyspace extends React.Component{
                                     </Col>
                                     <Col md="3" className="card-outer">
                                         <div className="contain-card" >
-                                            <a href="/furnishthegreyspace/product">
+                                            <a href="/arshelf/product">
                                                 <Card className="card-card" style={{borderColor:"#007bff",borderWidth:"1px 1px 1px 6px"}}>
                                                     <div className="contain-card-img">
                                                         <Card.Img variant="center" src={s3} width="250px!important" />
                                                     </div>
                                                     <Card.Body>
                                                         <Card.Text>
-                                                            <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                            <p className="para">From ₹ 2,100</p>
+                                                            <strong style={{fontSize:"20px"}}>Classy Marvin Fabric Chair</strong>
+                                                            <p className="para">From ₹ 2,999</p>
                                                             <p className="smallpara">Zauri, Homefull</p>
                                                         </Card.Text>
                                                     </Card.Body>
@@ -365,10 +365,10 @@ class furnishthegreyspace extends React.Component{
                                     </Col>
                                     <Col md="3" className="card-outer">
                                         <div className="contain-card">
-                                            <a href="/furnishthegreyspace/product">
+                                            <a href="/arshelf/product">
                                                 <Card className="card-card" style={{borderColor:"#007bff",borderWidth:"1px 1px 1px 6px"}}>
                                                     <strong style={{fontSize:"30px",marginTop:"140px"}}>View More...</strong>
-                                                    <a href="customer/furniture"><FontAwesomeIcon id="wishlist-icon" style={{width:"60px",height:"70px",color:"#007bff",margin:"10px",paddingRight:"20px"}} icon={faArrowRight}/></a>
+                                                    <a href="/arshelf/furniture"><FontAwesomeIcon id="wishlist-icon" style={{width:"60px",height:"70px",color:"#007bff",margin:"10px",paddingRight:"20px"}} icon={faArrowRight}/></a>
                                                 </Card>
                                             </a>
                                         </div>
@@ -380,14 +380,14 @@ class furnishthegreyspace extends React.Component{
                 </section>
 
                 <div className="gallery">
-                    <Container fluid>
+                    <Container>
                         <div className="title-container">
                             <h2>Showpiece</h2>
                             <hr className="hr-style" />
                         </div>
                         <Row>
                             <Col md={4}>
-                                <a href="/furnishthegreyspace/product">
+                                <a href="/arshelf/product">
                                     <Card className="card-card">
                                         <div className="contain-card-img">
                                             <Card.Img variant="center" src={s4}  />
@@ -395,8 +395,8 @@ class furnishthegreyspace extends React.Component{
                                         <hr />
                                         <Card.Body>
                                             <Card.Text className="container">
-                                                <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                <p className="para">From ₹ 2,100</p>
+                                                <strong style={{fontSize:"20px"}}>Buddha Showpiece</strong>
+                                                <p className="para">From ₹ 1,500</p>
                                                 <p className="smallpara">Zauri, Homefull</p>
                                                 <br />
                                             </Card.Text>
@@ -405,7 +405,7 @@ class furnishthegreyspace extends React.Component{
                                 </a>
                             </Col>
                             <Col md={4}>
-                                <a href="/furnishthegreyspace/product">
+                                <a href="/arshelf/product">
                                     <Card className="card-card">
                                         <div className="contain-card-img">
                                             <Card.Img variant="center" src={s4}  />
@@ -413,8 +413,8 @@ class furnishthegreyspace extends React.Component{
                                         <hr />
                                         <Card.Body>
                                             <Card.Text className="container">
-                                                <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                <p className="para">From ₹ 2,100</p>
+                                                <strong style={{fontSize:"20px"}}>Buddha Showpiece</strong>
+                                                <p className="para">From ₹ 1,500</p>
                                                 <p className="smallpara">Zauri, Homefull</p>
                                                 <br />
                                             </Card.Text>
@@ -423,7 +423,7 @@ class furnishthegreyspace extends React.Component{
                                 </a>
                             </Col>
                             <Col md={4}>
-                                <a href="/furnishthegreyspace/product">
+                                <a href="/arshelf/product">
                                     <Card className="card-card">
                                         <div className="contain-card-img">
                                             <Card.Img variant="center" src={s4}  />
@@ -431,64 +431,8 @@ class furnishthegreyspace extends React.Component{
                                         <hr />
                                         <Card.Body>
                                             <Card.Text className="container">
-                                                <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                <p className="para">From ₹ 2,100</p>
-                                                <p className="smallpara">Zauri, Homefull</p>
-                                                <br />
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </a>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col md={4}>
-                                <a href="/furnishthegreyspace/product">
-                                    <Card className="card-card">
-                                        <div className="contain-card-img">
-                                            <Card.Img variant="center" src={s4}  />
-                                        </div>
-                                        <hr />
-                                        <Card.Body>
-                                            <Card.Text className="container">
-                                                <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                <p className="para">From ₹ 2,100</p>
-                                                <p className="smallpara">Zauri, Homefull</p>
-                                                <br />
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </a>
-                            </Col>
-                            <Col md={4}>
-                                <a href="/furnishthegreyspace/product">
-                                    <Card className="card-card">
-                                        <div className="contain-card-img">
-                                            <Card.Img variant="center" src={s4}  />
-                                        </div>
-                                        <hr />
-                                        <Card.Body>
-                                            <Card.Text className="container">
-                                                <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                <p className="para">From ₹ 2,100</p>
-                                                <p className="smallpara">Zauri, Homefull</p>
-                                                <br />
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </a>
-                            </Col>
-                            <Col md={4}>
-                                <a href="/furnishthegreyspace/product">
-                                    <Card className="card-card">
-                                        <div className="contain-card-img">
-                                            <Card.Img variant="center" src={s4}  />
-                                        </div>
-                                        <hr />
-                                        <Card.Body>
-                                            <Card.Text className="container">
-                                                <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                <p className="para">From ₹ 2,100</p>
+                                                <strong style={{fontSize:"20px"}}>Buddha Showpiece</strong>
+                                                <p className="para">From ₹ 1,500</p>
                                                 <p className="smallpara">Zauri, Homefull</p>
                                                 <br />
                                             </Card.Text>
@@ -499,7 +443,7 @@ class furnishthegreyspace extends React.Component{
                         </Row>
                         <Row>
                             <Col md={4}>
-                                <a href="/furnishthegreyspace/product">
+                                <a href="/arshelf/product">
                                     <Card className="card-card">
                                         <div className="contain-card-img">
                                             <Card.Img variant="center" src={s4}  />
@@ -507,8 +451,8 @@ class furnishthegreyspace extends React.Component{
                                         <hr />
                                         <Card.Body>
                                             <Card.Text className="container">
-                                                <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                <p className="para">From ₹ 2,100</p>
+                                                <strong style={{fontSize:"20px"}}>Buddha Showpiece</strong>
+                                                <p className="para">From ₹ 1,500</p>
                                                 <p className="smallpara">Zauri, Homefull</p>
                                                 <br />
                                             </Card.Text>
@@ -517,7 +461,7 @@ class furnishthegreyspace extends React.Component{
                                 </a>
                             </Col>
                             <Col md={4}>
-                                <a href="/furnishthegreyspace/product">
+                                <a href="/arshelf/product">
                                     <Card className="card-card">
                                         <div className="contain-card-img">
                                             <Card.Img variant="center" src={s4}  />
@@ -525,8 +469,8 @@ class furnishthegreyspace extends React.Component{
                                         <hr />
                                         <Card.Body>
                                             <Card.Text className="container">
-                                                <strong style={{fontSize:"20px"}}>Wooden Tv units</strong>
-                                                <p className="para">From ₹ 2,100</p>
+                                                <strong style={{fontSize:"20px"}}>Buddha Showpiece</strong>
+                                                <p className="para">From ₹ 1,500</p>
                                                 <p className="smallpara">Zauri, Homefull</p>
                                                 <br />
                                             </Card.Text>
@@ -535,10 +479,66 @@ class furnishthegreyspace extends React.Component{
                                 </a>
                             </Col>
                             <Col md={4}>
-                                <a href="/furnishthegreyspace/product">
+                                <a href="/arshelf/product">
+                                    <Card className="card-card">
+                                        <div className="contain-card-img">
+                                            <Card.Img variant="center" src={s4}  />
+                                        </div>
+                                        <hr />
+                                        <Card.Body>
+                                            <Card.Text className="container">
+                                                <strong style={{fontSize:"20px"}}>Buddha Showpiece</strong>
+                                                <p className="para">From ₹ 1,500</p>
+                                                <p className="smallpara">Zauri, Homefull</p>
+                                                <br />
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </a>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col md={4}>
+                                <a href="/arshelf/product">
+                                    <Card className="card-card">
+                                        <div className="contain-card-img">
+                                            <Card.Img variant="center" src={s4}  />
+                                        </div>
+                                        <hr />
+                                        <Card.Body>
+                                            <Card.Text className="container">
+                                                <strong style={{fontSize:"20px"}}>Buddha Showpiece</strong>
+                                                <p className="para">From ₹ 1,500</p>
+                                                <p className="smallpara">Zauri, Homefull</p>
+                                                <br />
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </a>
+                            </Col>
+                            <Col md={4}>
+                                <a href="/arshelf/product">
+                                    <Card className="card-card">
+                                        <div className="contain-card-img">
+                                            <Card.Img variant="center" src={s4}  />
+                                        </div>
+                                        <hr />
+                                        <Card.Body>
+                                            <Card.Text className="container">
+                                                <strong style={{fontSize:"20px"}}>Buddha Showpiece</strong>
+                                                <p className="para">From ₹ 1,500</p>
+                                                <p className="smallpara">Zauri, Homefull</p>
+                                                <br />
+                                            </Card.Text>
+                                        </Card.Body>
+                                    </Card>
+                                </a>
+                            </Col>
+                            <Col md={4}>
+                                <a href="/arshelf/product">
                                     <Card className="card-card" >
                                         <strong style={{fontSize:"30px",marginTop:"140px"}}>View More...</strong>
-                                        <a href="customer/showpiece"><FontAwesomeIcon id="wishlist-icon" style={{width:"60px",height:"70px",color:"#007bff",margin:"10px",paddingRight:"20px"}} icon={faArrowRight}/></a>
+                                        <a href="/arshelf/showpiece"><FontAwesomeIcon id="wishlist-icon" style={{width:"60px",height:"70px",color:"#007bff",margin:"10px",paddingRight:"20px"}} icon={faArrowRight}/></a>
                                     </Card>
                                 </a>
                             </Col>
@@ -557,4 +557,4 @@ class furnishthegreyspace extends React.Component{
         )
     }
 }
-export default withRouter(furnishthegreyspace);
+export default withRouter(arshelf);
